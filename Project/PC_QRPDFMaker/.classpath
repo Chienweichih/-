@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="source"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="build"/>
+	<classpathentry kind="lib" path="C:/Program Files/OpenOffice.org 3/Basis/program/classes/bootstrapconnector.jar"/>
+	<classpathentry kind="lib" path="D:/yichen/workspace/QRPDFMaker/libs/core.jar"/>
+	<classpathentry kind="lib" path="D:/yichen/workspace/QRPDFMaker/libs/zxing-j2se-1.7.jar"/>
+	<classpathentry kind="con" path="org.openoffice.ide.eclipse.java.OOO_CONTAINER/OpenOffice.org 3.4.1"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

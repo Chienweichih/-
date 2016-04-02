@@ -1,0 +1,12 @@
+#ifndef __org_openoffice_example_openofficetest_idl__
+#define __org_openoffice_example_openofficetest_idl__
+
+#include <org/openoffice/example/XOpenOfficeTest.idl>
+module org { module openoffice { module example { 	
+
+	service OpenOfficeTest : org::openoffice::example::XOpenOfficeTest {
+
+	};
+
+ }; }; };
+#endif

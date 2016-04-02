@@ -1,0 +1,12 @@
+#UNO project configuration file
+#Sat Aug 10 14:44:25 CST 2013
+project.srcdir=/source
+regclassname=org.openoffice.example.comp.RegistrationHandler
+javaversion=java4
+project.sdk=341m1
+project.ooo=OpenOffice.org 3.4.1
+project.implementation=comp
+project.build=build
+project.language=Java
+project.prefix=org.openoffice.example
+project.idl=/idl

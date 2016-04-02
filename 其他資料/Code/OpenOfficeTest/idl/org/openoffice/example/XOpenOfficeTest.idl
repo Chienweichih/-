@@ -1,0 +1,11 @@
+#ifndef __org_openoffice_example_xopenofficetest_idl__
+#define __org_openoffice_example_xopenofficetest_idl__
+
+module org { module openoffice { module example { 	
+
+	interface XOpenOfficeTest {
+
+	};
+
+ }; }; };
+#endif

@@ -1,0 +1,12 @@
+#ifndef __org_openoffice_example_qrpdfmaker_idl__
+#define __org_openoffice_example_qrpdfmaker_idl__
+
+#include <org/openoffice/example/XQRPDFMaker.idl>
+module org { module openoffice { module example { 	
+
+	service QRPDFMaker : org::openoffice::example::XQRPDFMaker {
+
+	};
+
+ }; }; };
+#endif

@@ -1,0 +1,51 @@
+﻿<html>
+	<head>
+		<title>管理員登入</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+body{
+	background-image: url(suse_zhiwen-033.jpg);
+}
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37458318-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		<style type="text/css">
+		<!--
+		body{
+			background-image: url(suse_zhiwen.jpg);
+		}
+		-->
+		</style>
+	</head>	
+	<body>
+		<fieldset>
+		<legend>登入</legend>
+			<form name="LoginForm" method="post" action="checkpwd.php" onSubmit="return InputCheck(this)">
+				<p>
+					<label for="id" class="label"> 帳號:</label>
+					<input  name="id" type="text" class="input" />
+				</p>
+				<p>
+					<label for="pw" class="label">密碼:</label>
+					<input  name="pw" type="password" class="input" />
+				<p/>
+				<p>
+					<input type="submit" name="submit" value="登入" class="left" />
+				</p>
+			</form>
+		</fieldset>
+	</body>
+</html>
